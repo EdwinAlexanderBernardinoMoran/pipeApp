@@ -20,14 +20,17 @@ export class MenuComponent {
           {
             label: 'Textos y Fechas',
             icon: 'pi pi-align-left',
+            routerLink: '/'
           },
           {
             label: 'Numeros',
             icon: 'pi pi-dollar',
+            routerLink: 'numbers'
           },
           {
             label: 'No Comunes',
             icon: 'pi pi-globe',
+            routerLink: 'uncommon'
           },
         ]
       },
@@ -40,7 +43,8 @@ export class MenuComponent {
             icon: 'pi pi-cog'
           },
         ]
-      }
+      },
+
     ];
   }
 
